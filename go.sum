@@ -1,10 +1,31 @@
-github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
-github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
-github.com/gorilla/securecookie v1.1.2 h1:YCIWL56dvtr73r6715mJs5ZvhtnY73hBvEF8kXD8ePA=
-github.com/gorilla/securecookie v1.1.2/go.mod h1:NfCASbcHqRSY+3a8tlWJwsQap2VX5pwzwo4h3eOamfo=
-github.com/gorilla/sessions v1.2.2 h1:lqzMYz6bOfvn2WriPUjNByzeXIlVzURcPmgMczkmTjY=
-github.com/gorilla/sessions v1.2.2/go.mod h1:ePLdVu+jbEgHH+KWw8I1z2wqd0BAdAQh/8LRvBeoNcQ=
-github.com/mattn/go-sqlite3 v1.14.18 h1:JL0eqdCOq6DJVNPSvArO/bIV9/P7fbGrV00LZHc+5aI=
-github.com/mattn/go-sqlite3 v1.14.18/go.mod h1:2eHXhiwb8IkHr+BDWZGa96P6+rkvnG63S2DGjv9HUNg=
-golang.org/x/crypto v0.15.0 h1:frVn1TEaCEaZcn3Tmd7Y2b5KKPaZ+I32Q2OA3kYp5TA=
-golang.org/x/crypto v0.15.0/go.mod h1:4ChreQoLWfG3xLDer1WdlH5NdlQ3+mwnQq1YTKY+72g=
+// This is the go.mod file for the Gorilla Mux package, a powerful URL router and dispatcher
+// for matching incoming requests to their respective handler. This version of the package is 1.8.1.
+github.com/gorilla/mux v1.8.1
+
+// This is the go.mod file for the Gorilla Mux package version 1.8.1.
+github.com/gorilla/mux v1.8.1/go.mod
+
+// This is the go.mod file for the Gorilla SecureCookie package, a package for securely
+// signing and encrypting cookies. This version of the package is 1.1.2.
+github.com/gorilla/securecookie v1.1.2
+
+// This is the go.mod file for the Gorilla SecureCookie package version 1.1.2.
+github.com/gorilla/securecookie v1.1.2/go.mod
+
+// This is the go.mod file for the Gorilla Sessions package, a package for managing user sessions.
+// This version of the package is 1.2.2.
+github.com/gorilla/sessions v1.2.2
+
+// This is the go.mod file for the Gorilla Sessions package version 1.2.2.
+github.com/gorilla/sessions v1.2.2/go.mod
+
+// This is the go.mod file for the Go SQLite3 package, a package for using SQLite databases with Go.
+// This version of the package is 1.14.18.
+github.com/mattn/go-sqlite3 v1.14.18
+
+// This is the go.mod file for the Go SQLite3 package version 1.14.18.
+github.com/mattn/go-sqlite3 v1.14.18/go.mod
+
+// This is the go.mod file for the Go Crypto package, a package for cryptographic algorithms.
+// This version of the package is 0.15.0.
+golang.org/x/crypto v0.15.
