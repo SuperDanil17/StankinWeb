@@ -1,1 +1,19 @@
-.vscode/
+{
+  // The 'settings.json' file is used to store user-specific settings for the workspace.
+  // These settings can override the default settings for Visual Studio Code and are
+  // applied only to the current workspace.
+
+  // To open the 'settings.json' file, go to the command palette (Ctrl+Shift+P) and
+  // type 'Open Settings (JSON)'. This will open the file in the editor.
+
+  // Here are some examples of settings that can be configured in this file:
+
+  // Configure the tab size for the workspace
+  "editor.tabSize": 2,
+
+  // Enable or disable the minimap for the workspace
+  "editor.minimap.enabled": false,
+
+  // Configure the font size for the editor
+  "editor.fontSize": 14
+}
