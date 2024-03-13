@@ -1,142 +1,143 @@
+/* ---------------------------------
+Footer Styles
+--------------------------------- */
 footer {
+    /* Set the background color of the footer */
     background-color: #ababab;
+
+    /* Set the text color of the footer */
     color: white;
+
+    /* Center-align the text in the footer */
     text-align: center;
+
+    /* Add padding to the top and bottom of the footer */
     padding: 10px 0;
 }
 
+/* ---------------------------------
+Body Styles
+--------------------------------- */
 body {
+    /* Set the background color of the body */
     background-color: #f8f8f8;
+
+    /* Set the font family of the body */
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+    /* Remove the margin and padding from the body */
     margin: 0;
     padding: 0;
+
+    /* Set the position of the body to relative */
     position: relative;
+
+    /* Set the minimum height of the body to 100vh */
     min-height: 100vh;
 }
 
-
-
+/* ---------------------------------
+Anchor Styles
+--------------------------------- */
 a {
-    color: #007bff; 
+    /* Set the color of the anchor tag */
+    color: #007bff;
+
+    /* Set the font size of the anchor tag */
     font-size: 16px;
+
+    /* Set the font weight of the anchor tag */
     font-weight: bold;
+
+    /* Remove the underline from the anchor tag */
     text-decoration: none;
 }
 
+/* ---------------------------------
+Unordered List Styles
+--------------------------------- */
 ul {
+    /* Remove the bullet points from the unordered list */
     list-style-type: none;
 }
 
+/* ---------------------------------
+Ordered List Styles
+--------------------------------- */
 ol {
+    /* Remove the numbers from the ordered list */
     list-style-type: none;
 }
 
+/* ---------------------------------
+Form Styles
+--------------------------------- */
 form {
+    /* Set the maximum width of the form */
     max-width: 400px;
+
+    /* Center the form on the page */
     margin: 0 auto;
+
+    /* Add padding to the form */
     padding: 20px;
+
+    /* Add a border to the form */
     border: 1px solid #ccccccef;
+
+    /* Round the corners of the form */
     border-radius: 5px;
 }
 
+/* ---------------------------------
+Heading Styles
+--------------------------------- */
 h1 {
+    /* Center-align the heading */
     text-align: center;
 }
 
+/* ---------------------------------
+Label Styles
+--------------------------------- */
 label {
+    /* Display the label as a block-level element */
     display: block;
+
+    /* Add margin to the bottom of the label */
     margin-bottom: 10px;
 }
 
+/* ---------------------------------
+Input and Textarea Styles
+--------------------------------- */
 input[type="tel"],
 input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea {
+    /* Set the width of the input and textarea elements */
     width: 100%;
+
+    /* Add padding to the input and textarea elements */
     padding: 10px;
+
+    /* Add a border to the input and textarea elements */
     border: 1px solid #ccc;
+
+    /* Round the corners of the input and textarea elements */
     border-radius: 5px;
+
+    /* Remove the resize functionality from the textarea element */
     resize: none;
 }
 
+/* ---------------------------------
+Submit Button Styles
+--------------------------------- */
 input[type="submit"] {
+    /* Set the background color of the submit button */
     background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-.product-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin: 80px;
-    padding: 20px;
-    max-width: 300px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    text-align: justify;
-}
-
-.product-image {
-    max-width: 100%;
-    height: auto;
-}
-
-.product-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0;
-    text-align: center;
-}
-
-.product-description {
-    margin: 10px 0;
-    text-align: justify;
-}
-
-.product-features {
-    font-size: 14px;
-    margin: 10px 0;
-    text-align: justify;
-}
-
-
-.label-temp {
-    display: block;
-    cursor: pointer;
-    text-align: center;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #007bff; /* Цвет фона для кнопок регистрации */
-    color: #fff; /* Цвет текста для кнопок регистрации */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-    font-size: 15px;
-}
-
-/* Стиль для кнопки входа */
-#login-button {
-    background-color: transparent; /* Прозрачный фон для кнопки входа */
-    color: #007bff; /* Цвет текста для кнопки входа */
-    border: none;
-    font-size: 15px;
-}
-
-/* При наведении на кнопки регистрации изменить цвет фона */
-button:hover {
-    background-color: #0056b3;
-}
-
-#login-button:hover {
-    color: #0056b3; /* Цвет текста при наведении на кнопку входа */
-}
+    /* Set the color of the text in the submit button */
+   
